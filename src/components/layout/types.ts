@@ -8,7 +8,7 @@ interface User {
 
 interface Team {
   name: string
-  logo: React.ElementType
+  logo: React.ElementType | string // Can be a component or an image URL
   plan: string
 }
 
